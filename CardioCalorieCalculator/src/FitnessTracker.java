@@ -55,7 +55,7 @@ public class FitnessTracker implements ActionListener {
 	private double caloriesBurned; //total number of calories burned
 	 
 	/**
-	 * Creates an instance of the class for the Singleton Pattern
+	 * Declares instance of the class for the Singleton Pattern
 	 */
 	private static FitnessTracker instance;
 	
