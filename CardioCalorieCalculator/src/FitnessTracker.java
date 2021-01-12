@@ -57,7 +57,7 @@ public class FitnessTracker implements ActionListener {
 	/**
 	 * Creates an instance of the class for the Singleton Pattern
 	 */
-	private static FitnessTracker instance = new FitnessTracker();
+	private static FitnessTracker instance;
 	
 	/**
 	 * 
@@ -391,6 +391,9 @@ public class FitnessTracker implements ActionListener {
 	 * for Singleton pattern
 	 */
 	public static FitnessTracker getInstance() {
+		if(instance == null) {
+			instance = new FitnessTracker();
+		}
 		return instance;
 	}
 }
