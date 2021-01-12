@@ -17,7 +17,7 @@ import javax.swing.JTextField;
  * This class implements the ActionListener for the buttons in the GUI
  * 
  */
-public class FitnessTracker implements ActionListener {
+public class FitnessTracker implements ActionListener { 
 	
 	private JPanel workoutPanel; //first window panel
 	private JPanel timePanel; //second window panel
@@ -55,7 +55,7 @@ public class FitnessTracker implements ActionListener {
 	private double caloriesBurned; //total number of calories burned
 	 
 	/**
-	 * Declares instance of the class for the Singleton Pattern
+	 * Declares instance of the class for the Singleton pattern
 	 */
 	private static FitnessTracker instance;
 	
